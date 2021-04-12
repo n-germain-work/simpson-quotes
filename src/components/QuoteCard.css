@@ -1,0 +1,52 @@
+.QuoteCard {
+  width: 500px;
+  background-color: #fed90f;
+  margin: 20px;
+  border-radius: 1rem;
+  border: 1px solid grey;
+  box-shadow: 2px 2px rgb(151, 151, 151);
+}
+
+.Right {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.Left {
+  display: flex;
+  justify-content: space-between;
+}
+
+.avatar {
+  height: 140px;
+  margin: auto 15px auto 15px;
+  border: 1px solid rgb(187, 187, 187);
+  border-radius: 3px;
+  background-color: azure;
+}
+
+.name {
+  text-align: left;
+  margin-left: 20px;
+  padding: 10px;
+  border-bottom: 1px solid grey;
+  margin-right: 20px;
+  color: #027cb4;
+}
+
+.quote {
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-style: italic;
+  color: #424f46;
+}
+
+.quote::before {
+  content: '" ';
+}
+
+.quote::after {
+  content: ' "';
+}
